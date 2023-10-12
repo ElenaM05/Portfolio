@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&family=Pacifico&display=swap');
+*{
+  margin: 15;
+  padding: 15;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'K2D', sans-serif;
+}
+
+.title{
+    font-size: 8vh;
+    color: rgb(26, 67, 73);
+}
+header .navigation a{
+    color: #fff;
+    font-weight: 300;
+    font-size: medium;
+    text-decoration: none;
+    margin-left: 30px;
+    position: relative;
+    margin-top: 0;
+}
+
+header .navigation a:hover{
+    color: #4112ff;
+}
+  
+header.sticky .navigation a:hover{
+    color: #4112ff;
+}
+
+.main{
+    background-image: url(bgim.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-color: rgb(51, 76, 76);
+    color: rgb(3, 129, 143);
+    text-align: center;
+    text-shadow: #63e7f6 2px 2px 3px;
+    width: 100%;
+    min-height:25vh;
+    font-size: 6vh;
+    padding-bottom: 20px;
+}
+
+
+.h2{
+    font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.About{
+    font-size: 4vh;
+    margin-left: 100px;
+    margin-right: 200px;
+    text-align: justify ;
+    
+}
+
+
+.icons{
+    text-align: center;
+    margin-bottom: 4vh;
+    
+
+}
+h1{
+    color: aqua;
+    font-size: 20vh;
+    text-shadow: 3px 3px 5px rgb(107, 185, 227);
+}
+body{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.skillinfo{
+    text-align: center;
+    background-color: rgb(16, 75, 76);
+    box-shadow: 3px 3px 5px rgb(101, 234, 236);
+    min-height: 50%;
+    font-size: 4vh;
+    
+
+}
+#img1{
+    float: left;
+    margin-bottom: 5vh;
+    margin-right: 5%;
+    height: 35vh;
+    position: relative;
+}
+.contact{
+    font-size: 2.5vh;
+    border-color: rgb(106, 134, 137);
+    border-style: outset;
+}
+
+.contactfeel{
+    font-size: 3vh;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    color: #0d4146;
+
+}
+
+
+@keyframes fadeIn {
+        50%{opacity: 1}
+
+}
